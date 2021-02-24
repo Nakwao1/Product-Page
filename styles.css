@@ -1,0 +1,155 @@
+body {
+    background-color: rgb(243, 232, 232);
+    margin: 0px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .navLink {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(13, 3, 71, 0.726);
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  a:hover {
+    background-color: rgb(26, 20, 20);
+    border-radius: 30px;
+  }
+  .navs {
+    position: relative;
+    margin-left: 60px;
+    top: 25px;
+    font-size: 22px;
+    right: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .news {
+    display: flex;
+    background-color: rgb(231, 223, 212);
+    width: 79%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .player {
+    width: 750px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  #player-news {
+    background-color: rgba(13, 3, 71, 0.726);
+    width: auto;
+    height: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+  }
+  
+  hr {
+    width: 50%;
+  }
+  
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(223, 213, 213);
+  }
+  
+  .textDetails {
+    padding: 12px;
+    line-height: 25px;
+    font-size: 18px;
+    color: antiquewhite;
+  }
+  
+  .feature {
+    top: 92px;
+    left: 10px;
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .btn-readmore {
+    position: relative;
+    left: 210px;
+    top: 50px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  #playersContainer {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    position: relative;
+    top: 0px;
+  }
+  
+  #Text-h1 {
+    color: rgb(221, 34, 34);
+  }
+  
+  .shopNow {
+    width: 30%;
+    height: auto;
+    bottom: 10px;
+    position: relative;
+    height: 500px;
+    top: 10px;
+  }
+  .cards {
+    align-items: center;
+    margin: 0px 20px 60px 20px;
+    width: 360px;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  .Items {
+    border-radius: 15px;
+    width: 270px;
+    position: relative;
+    left: 60px;
+  }
+  .btn-items {
+    font-size: 14px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode";
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(243, 229, 229);
+    color: rgb(82, 79, 79);
+    position: relative;
+    left: 230px;
+    outline-style: none;
+    bottom: 40px;
+    border-style: double;
+    border-color: rgb(158, 158, 158);
+    font-weight: bold;
+  }
+  .item-text {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  #price {
+    color: white;
+    padding: 10px;
+    padding: 12px;
+    line-height: 25px;
+    font-size: 18px;
+    color: antiquewhite;
+  }
